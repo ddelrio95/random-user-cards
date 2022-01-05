@@ -8,6 +8,7 @@ const SocialCard = ({ userData }) => {
         <div className='card_title'>
           {userData.name.first} {userData.last}
         </div>
+
         <div className='card_image'>
           <img src={userData.picture.medium} />
         </div>
